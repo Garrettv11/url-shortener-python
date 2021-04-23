@@ -1,4 +1,4 @@
-"""Restaurant app-level route registration"""
+"""url app-level route registration"""
 
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter

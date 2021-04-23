@@ -1,10 +1,11 @@
 from django.db import models
-from django.db.models import indexes
-from django.http.request import HttpRequest
+
 # Create your models here.
 MAX_URL_SIZE = 2000
 
 class ShortURL(models.Model):
+
+    
     full_url = models.URLField(max_length=MAX_URL_SIZE)
     short_path_component = models.CharField(max_length=8)
 
