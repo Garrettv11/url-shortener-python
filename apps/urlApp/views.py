@@ -5,9 +5,9 @@ from rest_framework.status import HTTP_200_OK
 from rest_framework.viewsets import ModelViewSet
 from rest_framework.decorators import api_view
 
-from urlApp.models import ShortURL
-from urlApp.models import ShortURL
-from urlApp.serializers import ShortUrlManagerSerializer
+from apps.urlApp.models import ShortURL
+from apps.urlApp.models import ShortURL
+from apps.urlApp.serializers import ShortUrlManagerSerializer
 
 # Create your views here.
 

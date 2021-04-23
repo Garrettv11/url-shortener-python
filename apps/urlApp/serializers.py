@@ -1,6 +1,6 @@
 from rest_framework import serializers
 from django.db import transaction
-from urlApp.models import ShortURL
+from apps.urlApp.models import ShortURL
 
 CHARACTER_SPACE = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 BASE = len(CHARACTER_SPACE)
